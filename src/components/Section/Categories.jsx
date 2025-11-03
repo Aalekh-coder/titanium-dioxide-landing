@@ -37,7 +37,7 @@ const Categories = () => {
   ];
 
   return (
-    <div className="bg-[#2E2A20] mb-10 py-10 px-5">
+    <div className="bg-[#2E2A20] mb-10 py-10 px-5" id="categories">
       <h3 className="text-[#DF9E42] flex gap-3 items-center font-medium">
         <Image
           src={"/image/cookie-30.webp"}
@@ -50,10 +50,15 @@ const Categories = () => {
 
       <p className="text-white text-5xl font-bold mt-2">Our Categories</p>
 
-      <button className="text-[#DF9E42] border-[#DF9E42] border-2 px-5 py-2 rounded-full my-8 ">
-        View All Products
-      </button>
-
+      <a
+        href="https://wa.me/918920109583"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="text-[#DF9E42] border-[#DF9E42] border-2 px-5 py-2 rounded-full my-8 ">
+          View All Products
+        </button>
+      </a>
       <span className="border-b border-[#DF9E42] h-1 w-full block my-5" />
 
       <div className="grid grid-cols-1 gap-5 ">
@@ -71,9 +76,9 @@ const Categories = () => {
                 <p className="font-bold text-xl">{title}</p>
               </div>
               <div>
-                <button className="bg-[#DF9E42] px-4 py-2 rounded-full">
+                <a href="tel:8920109583" className="bg-[#DF9E42] px-4 py-2 rounded-full">
                   Details
-                </button>
+                </a>
               </div>
             </div>
           </div>

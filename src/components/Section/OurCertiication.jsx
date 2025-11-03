@@ -9,25 +9,23 @@ import {
 import Image from "next/image";
 
 const OurCertification = () => {
-
-const image =[
-    "/image/fg.webp",
+  const image = [
+    "/image/dgg.webp", 
     "/image/dg.webp",
-    "/image/dgg.webp",
-]
+    "/image/fg.webp"
+    ];
 
   return (
-    <div className="mb-10">
+    <div className="mb-10" id="certification">
       <h3 className="font-bold text-4xl px-5 text-center">
         Our Certifications
       </h3>
 
       <div className="my-5">
-        <Carousel 
+        <Carousel
           opts={{
             align: "start",
             loop: true,
-            
           }}
           className="w-full max-w-sm relative"
         >
@@ -45,7 +43,6 @@ const image =[
               </CarouselItem>
             ))}
           </CarouselContent>
-        
         </Carousel>
       </div>
     </div>

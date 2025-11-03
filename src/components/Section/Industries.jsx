@@ -96,7 +96,7 @@ const Industries = () => {
         </Slider>
       </div>
 
-      <a href="tel:" className="flex text-[#D79840] gap-4 border-[#D79840] border px-3 py-4 rounded-full mt-5">
+      <a href="tel:8527557778" className="flex text-[#D79840] gap-4 border-[#D79840] border px-3 py-4 rounded-full mt-5">
         <PhoneCall /> Call Now
       </a>
     </div>

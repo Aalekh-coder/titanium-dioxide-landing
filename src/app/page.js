@@ -1,3 +1,4 @@
+import Chat from "@/components/Layout/Chat";
 import Footer from "@/components/Layout/Footer";
 import Navbar from "@/components/Layout/Navbar";
 import About from "@/components/Section/About";
@@ -21,6 +22,7 @@ export default function Home() {
       <Categories/>
       <StatisticData/>
       <SecondForm/>
+      <Chat/>
       <Footer/>
     </>
   );
